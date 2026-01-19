@@ -359,3 +359,46 @@ cursor: pointer;
     background-size: contain;
     background-repeat: no-repeat;
 }
+/* feature sec don */
+
+/* CTR sec start from here */
+
+.ctr_sec{
+  width: 1360px;
+  height: 384px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24;
+  background-color: #F7F6F2;
+  margin-top: 120px;
+  padding: 80px 40px
+  
+}
+
+.ctr_sec .ctr_sec_content{
+  justify-content: center;
+  align-items: center;
+}
+
+.ctr_sec_content h2{
+  font-style: Bold;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 80px;
+  margin-bottom: 16px;
+}
+
+. ctr_sec_content .des_1{
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
