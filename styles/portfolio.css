@@ -232,7 +232,7 @@ cursor: pointer;
 .cards-row {
     display: flex;
     justify-content: center;
-    align-items: stretch; /* Makes all cards the same height */
+    align-items: stretch; 
     gap: 24px;
     max-width: 1360px;
     margin: 0 auto;
@@ -240,7 +240,7 @@ cursor: pointer;
 
 /* Individual Card Item */
 .cards_item {
-    flex: 1; /* Forces cards to share width equally */
+    flex: 1; 
     background: #FFFFFF;
     border: 1px solid #E4E7EB;
     border-radius: 12px;
@@ -280,4 +280,82 @@ cursor: pointer;
     font-size: 16px;
     color: #627382;
     line-height: 20px;
+}
+
+/* card sec done */
+/* brain sec start from here */
+
+.brain_sec{
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  /* margin-top: 120px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  
+}
+.brain_sec img{
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+}
+.brain_sec_content .dialougue{
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  color: #30B868;
+  margin-bottom: 16px;
+}
+.brain_sec_content h2{
+  font-family: Inter;
+  font-style: Bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.brain_sec_content p{
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #627382;
+  margin-bottom: 40px;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-list li {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 16px; 
+    font-size: 16px;
+    color: #001931;
+}
+
+.feature-list li::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    background-image: url('../Images/CheckCircle.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
 }
