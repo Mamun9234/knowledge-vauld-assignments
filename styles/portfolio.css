@@ -500,4 +500,27 @@ cursor: pointer;
   margin-bottom: 30px;
 }
 
+.social_icons {
+    display: flex;
+    gap: 16px; /* Space between the circles */
+    align-items: center;
+    margin-top: 16px;
+}
+.social_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;           /* Size of the circle */
+    height: 36px;          /* Size of the circle */
+    background-color: #FFFFFF; /* White background as requested */
+    border-radius: 50%;    /* Makes it perfectly round */
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social_circle i {
+    color: #001931;       /* The icon color (matching your footer dark blue) */
+    font-size: 18px;       /* Size of the actual icon */
+}
+
 
