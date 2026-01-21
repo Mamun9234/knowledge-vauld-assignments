@@ -394,8 +394,7 @@ cursor: pointer;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
-  letter-spacing: 0%;
-  
+  letter-spacing: 0%;  
   text-transform: capitalize;
   margin-top: 80px;
   margin-bottom: 16px;
@@ -460,8 +459,7 @@ cursor: pointer;
   height: 348px;
   background-color:#001931;
   margin: 0 auto;
-  padding: 120px 120px 30px 120px;
-  
+  padding: 120px 120px 30px 120px;  
 }
 
 .footer_content{
@@ -502,7 +500,7 @@ cursor: pointer;
 
 .social_icons {
     display: flex;
-    gap: 16px; /* Space between the circles */
+    gap: 16px; 
     align-items: center;
     margin-top: 16px;
 }
@@ -510,17 +508,18 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 36px;           /* Size of the circle */
-    height: 36px;          /* Size of the circle */
-    background-color: #FFFFFF; /* White background as requested */
-    border-radius: 50%;    /* Makes it perfectly round */
+    width: 24px;           
+    height: 24px;          
+    background-color: #FFFFFF; 
+    border-radius: 50%;    
     text-decoration: none;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .social_circle i {
-    color: #001931;       /* The icon color (matching your footer dark blue) */
-    font-size: 18px;       /* Size of the actual icon */
+    color: #001931;       
+    width: 18px;
+    height: 18px;
 }
 
 
