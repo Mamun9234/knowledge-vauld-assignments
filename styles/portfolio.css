@@ -73,7 +73,7 @@
 
 /* Hero sec start from here */
 .hero_section {
-    background: linear-gradient(#001931CC, #001931CC), url(../Images/hero-bg.png);
+    background: url(../Images/hero-bg.png), rgba(0, 25, 49, 0.8);   
     width: 100%;
     max-width: 1600px;
     margin-top: 39px;
@@ -251,7 +251,7 @@ cursor: pointer;
     text-align: center;
 }
 
-/* The Red Circle (Ellipse) */
+
 .icon_wrapper {
     width: 64px;
     height: 64px;
