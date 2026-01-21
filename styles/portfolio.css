@@ -508,8 +508,9 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 24px;           
-    height: 24px;          
+    align-content: center;
+    width: 20px;           
+    height: 20px;          
     background-color: #FFFFFF; 
     border-radius: 50%;    
     text-decoration: none;
@@ -517,9 +518,8 @@ cursor: pointer;
 }
 
 .social_circle i {
-    color: #001931;       
-    width: 18px;
-    height: 18px;
+    color: #001931;  
+    
 }
 
 
